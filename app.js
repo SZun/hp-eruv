@@ -3,7 +3,7 @@ const getLastThurs = () => {
     var now = new Date();
     var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
     
-    return new Date(today.setDate(today.getDate()-today.getDay() + 4));
+    return new Date(today.setDate(today.getDate()-today.getDay() - 3));
 }
 
 const toJewishDate = async d => {
@@ -23,7 +23,7 @@ const setMainSubheaderText = async () => {
 }
 
 const setFooterText = () => {
-    const footerText = `Copyright © ${new Date().getFullYear()} Synogague - All Rights Reserved`;
+    const footerText = `Copyright © ${new Date().getFullYear()} HP Eruv - All Rights Reserved`;
     $('#footer-text').text(footerText);
 }
 
