@@ -1,0 +1,59 @@
+#main__header {
+  font-size: 48px;
+}
+
+.header-font {
+  font-family: "Dancing Script", cursive !important;
+}
+
+.paragraph-font {
+  font-family: "Gentium Basic", serif !important;
+}
+
+#eruv-img {
+  width: 47% !important;
+  height: 47% !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bh-img {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#main__subheader {
+  letter-spacing: 0.143em !important;
+  font-size: 16px !important;
+}
+
+#footer-container {
+  background: #000;
+}
+#footer-text {
+  font-size: 16px;
+}
+
+#about-us {
+  overflow: hidden;
+  text-align: center;
+}
+#about-us:before,
+#about-us:after {
+  background-color: #333;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+#about-us:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+#about-us:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
