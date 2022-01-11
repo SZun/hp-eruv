@@ -7,7 +7,7 @@ const getLastThurs = () => {
 }
 
 const toJewishDate = async d => {
-    const jewishDateRequestURL = `https://www.hebcal.com/converter?cfg=json&gy=${d.getFullYear()}&gm=${d.getMonth() + 1}&gd=${d.getDay() + 19}&g2h=1`;
+    const jewishDateRequestURL = `https://www.hebcal.com/converter?cfg=json&gy=${d.getFullYear()}&gm=${d.getMonth() + 1}&gd=${d.getDay() + 2}&g2h=1`;
     const res = await fetch(jewishDateRequestURL);
     const resJSON = await res.json();
     
